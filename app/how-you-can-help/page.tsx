@@ -10,7 +10,7 @@ const waysToGive = [
     title: "Give Online",
     description:
       "The fastest and most convenient way to support our mission. Donate securely online in just a few minutes using a credit or debit card.",
-    cta: { label: "Donate Now", href: "https://vanniegivesnow.org/", external: true },
+    cta: { label: "Donate Now", href: "https://vanniecook46072.thankyou4caring.org/sslpage.aspx?pid=298", external: true },
   },
   {
     title: "Give by Mail",

@@ -135,7 +135,9 @@ export default function Navigation() {
 
           <li>
             <Link
-              href="/how-you-can-help"
+              href="https://vanniecook46072.thankyou4caring.org/sslpage.aspx?pid=298"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-5 py-2.5 rounded-full bg-[var(--color-gold)] text-[var(--color-charcoal)] font-body text-base font-semibold tracking-wide transition-all duration-200 hover:bg-[var(--color-gold-dark)] hover:shadow-[0_4px_14px_rgba(245,166,35,0.45)] active:scale-95"
             >
               Donate
@@ -208,7 +210,9 @@ export default function Navigation() {
           ))}
           <div className="pt-4">
             <Link
-              href="/how-you-can-help"
+              href="https://vanniecook46072.thankyou4caring.org/sslpage.aspx?pid=298"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setMobileOpen(false)}
               className="block text-center py-3 px-5 rounded-full bg-[var(--color-gold)] text-[var(--color-charcoal)] font-body font-semibold text-sm hover:bg-[var(--color-gold-dark)] transition-colors"
             >
