@@ -72,13 +72,6 @@ export default function HomePage() {
             <HeroImageCarousel />
           </div>
 
-          {/* Scroll indicator — pinned to bottom, outside centered block */}
-          <div className="absolute bottom-10 left-6 lg:left-10 hidden lg:flex flex-col items-start gap-2 animate-fade-in anim-delay-800">
-            <span className="font-body text-white/35 text-[10px] tracking-[0.2em] uppercase">
-              Scroll
-            </span>
-            <div className="w-px h-8 bg-gradient-to-b from-white/35 to-transparent animate-scroll-bounce" />
-          </div>
         </div>
       </section>
 

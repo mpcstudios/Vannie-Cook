@@ -46,7 +46,7 @@ export default function Footer() {
                 with Our Mission
               </em>
             </h3>
-            <p className="font-body text-white/55 text-sm leading-relaxed mt-2">
+            <p className="font-body text-white text-sm leading-relaxed mt-2">
               Receive updates on how we&apos;re changing lives in the Rio Grande Valley.
             </p>
           </div>
@@ -77,7 +77,7 @@ export default function Footer() {
               height={80}
               className="h-20 w-auto object-contain mb-5"
             />
-            <address className="not-italic font-body text-white/50 text-sm space-y-0.5">
+            <address className="not-italic font-body text-white text-sm space-y-0.5">
               <p>101 West Expressway 83</p>
               <p>McAllen, Texas 78503</p>
               <p className="pt-1.5">
@@ -104,7 +104,7 @@ export default function Footer() {
                       href={link.href}
                       target={link.external ? "_blank" : undefined}
                       rel={link.external ? "noopener noreferrer" : undefined}
-                      className="font-body text-white/55 text-sm hover:text-[var(--color-gold)] transition-colors duration-200 focus-visible:outline-none focus-visible:text-[var(--color-gold)]"
+                      className="font-body text-white text-sm hover:text-[var(--color-gold)] transition-colors duration-200 focus-visible:outline-none focus-visible:text-[var(--color-gold)]"
                     >
                       {link.label}
                     </Link>
@@ -118,7 +118,7 @@ export default function Footer() {
         {/* Useful links + accreditation logos */}
         <div className="pt-8 pb-6 border-b border-white/10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
           <div>
-            <p className="font-body text-white/30 text-xs uppercase tracking-[0.14em] mb-3">
+            <p className="font-body text-white text-xs uppercase tracking-[0.14em] mb-3">
               Useful Links
             </p>
             <div className="flex flex-wrap gap-x-8 gap-y-2">
@@ -128,7 +128,7 @@ export default function Footer() {
                   href={link.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-body text-white/40 text-xs hover:text-[var(--color-gold)] transition-colors duration-200 focus-visible:outline-none focus-visible:text-[var(--color-gold)]"
+                  className="font-body text-white text-sm hover:text-[var(--color-gold)] transition-colors duration-200 focus-visible:outline-none focus-visible:text-[var(--color-gold)]"
                 >
                   {link.label}
                 </a>
@@ -169,13 +169,26 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="pt-6 flex flex-col sm:flex-row justify-between items-center gap-3">
-          <p className="font-body text-white/35 text-xs">
+          <p className="font-body text-white text-xs">
             © {new Date().getFullYear()} Vannie E. Cook Jr. Cancer Foundation.
             All rights reserved.
           </p>
-          <p className="font-body text-white/25 text-xs">
-            A non-profit 501(c)(3) organization
-          </p>
+          <div className="flex flex-col sm:items-end gap-1">
+            <p className="font-body text-white text-xs">
+              A non-profit 501(c)(3) organization
+            </p>
+            <p className="font-body text-white text-xs">
+              Non-Profit Website Design By{" "}
+              <a
+                href="https://www.mpcstudios.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-[var(--color-gold)] transition-colors duration-200 focus-visible:outline-none focus-visible:text-[var(--color-gold)]"
+              >
+                MPC Studios, Inc.
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </footer>
